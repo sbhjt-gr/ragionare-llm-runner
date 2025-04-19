@@ -10,9 +10,13 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "buildNumber": "199",
+      "buildNumber": "201",
       "infoPlist": {
         "UIBackgroundModes": [
+          "fetch",
+          "remote-notification",
+          "fetch",
+          "remote-notification",
           "fetch",
           "remote-notification",
           "fetch",
@@ -28,6 +32,22 @@
         "backgroundColor": "#000000"
       },
       "permissions": [
+        "NOTIFICATIONS",
+        "BACKGROUND_FETCH",
+        "WAKE_LOCK",
+        "FOREGROUND_SERVICE",
+        "NOTIFICATIONS",
+        "BACKGROUND_FETCH",
+        "WAKE_LOCK",
+        "FOREGROUND_SERVICE",
+        "NOTIFICATIONS",
+        "BACKGROUND_FETCH",
+        "WAKE_LOCK",
+        "FOREGROUND_SERVICE",
+        "NOTIFICATIONS",
+        "BACKGROUND_FETCH",
+        "WAKE_LOCK",
+        "FOREGROUND_SERVICE",
         "NOTIFICATIONS",
         "BACKGROUND_FETCH",
         "WAKE_LOCK",
@@ -72,6 +92,9 @@
         "projectId": "50d677ee-fa44-4d42-afa7-942b1e1223e7"
       }
     },
-    "owner": "subhajitgorai"
+    "owner": "subhajitgorai",
+    "updates": {
+      "url": "https://u.expo.dev/50d677ee-fa44-4d42-afa7-942b1e1223e7"
+    }
   }
 }
